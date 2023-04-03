@@ -4,29 +4,63 @@
 }
 h1 {
   margin-bottom: 15px;
+  text-align: center;
 }
 
 p {
-  border: 1px solid black;
-  background-color: #A52A2A;
+  float: right;
+  max-width: 150px;
+  border: 4px solid black;
   width: 95%;
-  height: 150px;
-  margin-right: auto;
+  height: 35px;
+  text-align: center;
+  margin-right: -4px;
   margin-left: auto;
+  margin-top: -4px;
   font-family: Helvetica;
+  color: black;
+  font-size: x-large;
+}
+#meal1{
+  background-color: #D59898;
+}
+#meal2{
+  background-color: #C14543;
   color: white;
 }
+#meal3{
+  background-color: #E5D198;
+}
+
+
+#p2 {
+  max-width: 95%;
+  border: 0px solid black;
+  padding: 0px;
+  width: fit-content;
+  height: fit-content;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -20px;
+  font-family: Helvetica;
+  font-size: x-large;
+  color: black;
+    }
 
 /* Simple Responsive Framework. */
 .row {
-  width: 100%;
+  /*width: fit-content;
+  height: fit-content;*/
 }
 
 /********** Desktop devices only **********/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid green;
+    background-color: #999999;
+    border: 4px solid black;
+    margin: 15px;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -38,7 +72,7 @@ p {
     width: 25%;
   }
   .col-lg-4 {
-    width: 33.33%;
+    width: 30%;
   }
   .col-lg-5 {
     width: 41.66%;
@@ -70,7 +104,9 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid green;
+    background-color: #999999;
+    border: 2px solid black;
+    margin: 15px;
   }
   .col-md-1 {
     width: 8.33%;
@@ -88,7 +124,7 @@ p {
     width: 41.66%;
   }
   .col-md-6 {
-    width: 50%;
+    width: 45%;
   }
   .col-md-7 {
     width: 58.33%;
@@ -106,7 +142,7 @@ p {
     width: 91.66%;
   }
   .col-md-12 {
-    width: 100%;
+    width: 93.5%;
   }
 }
 
@@ -114,7 +150,9 @@ p {
 @media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
-    border: 1px solid green;
+    background-color: #999999;
+    border: 2px solid black;
+    margin: 15px;
   }
   .col-sm-1 {
     width: 8.33%;
